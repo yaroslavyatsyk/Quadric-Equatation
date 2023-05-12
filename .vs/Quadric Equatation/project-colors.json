@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f02b28a3-c21e-41a1-b269-282f9e8e7c0c": {
+      "ProjectGuid": "f02b28a3-c21e-41a1-b269-282f9e8e7c0c",
+      "DisplayName": "UnitTestProject2",
+      "ColorIndex": 0
+    },
+    "aebeedcd-fdd8-4183-9027-244b5d47a0a9": {
+      "ProjectGuid": "aebeedcd-fdd8-4183-9027-244b5d47a0a9",
+      "DisplayName": "Quadric Equatation",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
