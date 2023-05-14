@@ -77,6 +77,12 @@ namespace Quadric_Equatation
             {
                 MessageBox.Show("Not assigned values", "Error",MessageBoxButton.OK,MessageBoxImage.Error);
             }
+
+            catch(ArgumentException)
+            {
+MessageBox.Show("a can't be 0", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+           
         }
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)

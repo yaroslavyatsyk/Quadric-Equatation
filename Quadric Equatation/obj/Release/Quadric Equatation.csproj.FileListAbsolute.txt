@@ -14,3 +14,19 @@ B:\Projects\Quadric_Equatation\Quadric Equatation\obj\Release\Quadric Equatation
 B:\Projects\Quadric_Equatation\Quadric Equatation\obj\Release\Quadric Equatation.csproj.CoreCompileInputs.cache
 B:\Projects\Quadric_Equatation\Quadric Equatation\obj\Release\Quadric Equatation.exe
 B:\Projects\Quadric_Equatation\Quadric Equatation\obj\Release\Quadric Equatation.pdb
+B:\Quadric_Equatation\Quadric Equatation\bin\Release\Quadric Equatation.exe.config
+B:\Quadric_Equatation\Quadric Equatation\bin\Release\Quadric Equatation.exe
+B:\Quadric_Equatation\Quadric Equatation\bin\Release\Quadric Equatation.pdb
+B:\Quadric_Equatation\Quadric Equatation\obj\Release\Quadric Equatation.csproj.AssemblyReference.cache
+B:\Quadric_Equatation\Quadric Equatation\obj\Release\Quadric Equatation.csproj.SuggestedBindingRedirects.cache
+B:\Quadric_Equatation\Quadric Equatation\obj\Release\MainWindow.g.cs
+B:\Quadric_Equatation\Quadric Equatation\obj\Release\App.g.cs
+B:\Quadric_Equatation\Quadric Equatation\obj\Release\Quadric Equatation_MarkupCompile.cache
+B:\Quadric_Equatation\Quadric Equatation\obj\Release\Quadric Equatation_MarkupCompile.lref
+B:\Quadric_Equatation\Quadric Equatation\obj\Release\MainWindow.baml
+B:\Quadric_Equatation\Quadric Equatation\obj\Release\Quadric Equatation.g.resources
+B:\Quadric_Equatation\Quadric Equatation\obj\Release\Quadric_Equatation.Properties.Resources.resources
+B:\Quadric_Equatation\Quadric Equatation\obj\Release\Quadric Equatation.csproj.GenerateResource.cache
+B:\Quadric_Equatation\Quadric Equatation\obj\Release\Quadric Equatation.csproj.CoreCompileInputs.cache
+B:\Quadric_Equatation\Quadric Equatation\obj\Release\Quadric Equatation.exe
+B:\Quadric_Equatation\Quadric Equatation\obj\Release\Quadric Equatation.pdb
