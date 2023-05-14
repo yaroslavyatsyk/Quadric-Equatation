@@ -13,6 +13,10 @@ namespace Quadric_Equatation
 
         public QuadricEquatation(double _a, double _b, double _c)
         {
+            if(_a == 0)
+            {
+                throw new ArgumentException("a can't be 0");
+            }
             a = _a;
             b = _b;
             c = _c;
