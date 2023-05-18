@@ -6,13 +6,9 @@
         xmlns:local="clr-namespace:Quadric_Equatation"
         xmlns:p="clr-namespace:Quadric_Equatation.Properties"
         mc:Ignorable="d"
-        Title="MainWindow" Height="394" Width="532.5">
-    <Grid Margin="0,0,-8,-1">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="415*"/>
-            <ColumnDefinition Width="126*"/>
-            <ColumnDefinition Width="0*"/>
-        </Grid.ColumnDefinitions>
+        Title="MainWindow" Height="394" Width="525">
+    <Grid Margin="0,0,-8,-1" Grid.IsSharedSizeScope="True" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" SnapsToDevicePixels="True" AutomationProperties.IsOffscreenBehavior="Onscreen">
+
         <Grid.Background>
             <ImageBrush ImageSource="Resources/math-background-17535970.jpg"/>
         </Grid.Background>
@@ -21,11 +17,11 @@
         <TextBox x:Name="BBox" HorizontalAlignment="Left" Height="38" Margin="180,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="67" RenderTransformOrigin="-0.091,0.521" FontSize="24"/>
         <Label x:Name="x" Content="x" HorizontalAlignment="Left" Margin="252,88,0,0" VerticalAlignment="Top" Height="38" Width="32" FontSize="24" Foreground="White"/>
         <TextBox x:Name="CBox" HorizontalAlignment="Left" Height="38" Margin="289,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="91" RenderTransformOrigin="-0.091,0.521" FontSize="24"/>
-        <Label x:Name="label" Content="= 0" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" Height="39" FontSize="24" Width="46" RenderTransformOrigin="-0.239,0.641" Foreground="White" Grid.Column="1"/>
-        <Button x:Name="Calculate_Button" Content="Calculate" HorizontalAlignment="Left" Margin="203,304,0,0" VerticalAlignment="Top" Width="124" Height="33" Click="Calculate_Button_Click"/>
-        <Menu x:Name="menu" Margin="10,10,36,330" Grid.ColumnSpan="2">
-            
-            <MenuItem Header="Abouе" Click="MenuItem_Click" ></MenuItem>
+        <Label x:Name="label" Content="= 0" HorizontalAlignment="Left" Margin="404,86,0,0" VerticalAlignment="Top" Height="39" FontSize="24" Width="46" RenderTransformOrigin="-0.239,0.641" Foreground="White"/>
+        <Button x:Name="Calculate_Button" Content="Calculate" HorizontalAlignment="Center" Margin="0,311,0,0" VerticalAlignment="Center" Width="124" Height="33" Click="Calculate_Button_Click"/>
+        <Menu x:Name="menu" Margin="0,0,20,335" Height="20" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+
+            <MenuItem Header="About" Click="MenuItem_Click" ></MenuItem>
         </Menu>
     </Grid>
 
