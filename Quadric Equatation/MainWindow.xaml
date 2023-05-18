@@ -16,7 +16,7 @@
         <Label x:Name="ax2" Content="x^2" HorizontalAlignment="Left" Margin="125,86,0,0" VerticalAlignment="Top" Height="40" Width="55" FontSize="24" Foreground="White"/>
         <TextBox x:Name="BBox" HorizontalAlignment="Left" Height="38" Margin="180,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="67" RenderTransformOrigin="-0.091,0.521" FontSize="24"/>
         <Label x:Name="x" Content="x" HorizontalAlignment="Left" Margin="252,88,0,0" VerticalAlignment="Top" Height="38" Width="32" FontSize="24" Foreground="White"/>
-        <TextBox x:Name="CBox" HorizontalAlignment="Left" Height="38" Margin="289,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="91" RenderTransformOrigin="-0.091,0.521" FontSize="24"/>
+        <TextBox x:Name="CBox" HorizontalAlignment="Left" Height="38" Margin="308,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="91" RenderTransformOrigin="-0.091,0.521" FontSize="24"/>
         <Label x:Name="label" Content="= 0" HorizontalAlignment="Left" Margin="404,86,0,0" VerticalAlignment="Top" Height="39" FontSize="24" Width="46" RenderTransformOrigin="-0.239,0.641" Foreground="White"/>
         <Button x:Name="Calculate_Button" Content="Calculate" HorizontalAlignment="Center" Margin="0,311,0,0" VerticalAlignment="Center" Width="124" Height="33" Click="Calculate_Button_Click"/>
         <Menu x:Name="menu" Margin="0,0,20,335" Height="20" HorizontalAlignment="Stretch" VerticalAlignment="Top">
