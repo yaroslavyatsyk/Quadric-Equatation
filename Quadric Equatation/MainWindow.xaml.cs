@@ -62,14 +62,14 @@ namespace Quadric_Equatation
                 {
                     double x = (double)results;
                     double d = equatation.GetDiscriminate();
-                    MessageBox.Show(string.Format("X = {0}, Discriminant = {1}", Math.Round(x,3), Math.Round(d,3), "Solution",MessageBoxButton.OK,MessageBoxImage.Information));
+                    MessageBox.Show(string.Format("X = {0}, Discriminant = {1}", Math.Round(x,2), Math.Round(d,2), "Solution",MessageBoxButton.OK,MessageBoxImage.Information));
                     
                 }
                 else
                 {
                     double d = equatation.GetDiscriminate();
                     Tuple<double,double> tuple = (Tuple<double,double>) results;
-                    MessageBox.Show(String.Format("x1 = {0}, x2 = {1}, Discriminant = {2} ", Math.Round(tuple.Item1,3), Math.Round(tuple.Item2,3), Math.Round(d,3)),"Solutions",MessageBoxButton.OK,MessageBoxImage.Information);
+                    MessageBox.Show(String.Format("x1 = {0}, x2 = {1}, Discriminant = {2} ", Math.Round(tuple.Item1,2), Math.Round(tuple.Item2,2), Math.Round(d,2)),"Solutions",MessageBoxButton.OK,MessageBoxImage.Information);
                 }
                
             }
